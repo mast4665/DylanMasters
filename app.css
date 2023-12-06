@@ -1,7 +1,12 @@
+/* for whole app */
+
 :root {
-  --text-color: rgb(224, 222, 222);
-  --background-color1: rgb(12, 68, 133);
-  --background-color2: rgb(5, 38, 87);
+  --white-light: rgb(221, 217, 216);
+  --white-dark: rgb(192, 188, 187);
+  --background: rgb(208, 199, 190);
+  --blue-light: rgb(114, 131, 174);
+  --blue-medium: rgb(72, 89, 132);
+  --blue-dark: rgb(53, 59, 83);
 }
 
 * {
@@ -21,6 +26,75 @@ html {
   scroll-behavior: smooth;
   font-size: 100%;
 }
+
+/* for nav */
+
+header {
+  width: 100%;
+  height: 50px;
+  background-color: var(--blue-light);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+}
+
+header > h1 {
+  color: var(--blue-dark);
+  font-size: min(5vw, 1.2em);
+  text-align: center;
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+}
+
+nav {
+  width: 50%;
+  max-width: 300px;
+  height: 50px;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  padding-inline-start: 0;
+  margin-block: 0;
+  height: 100%;
+}
+
+nav > ul > li {
+  color: var(--white-light);
+  margin: 0 0.2rem;
+  padding: 0.2rem;
+  display: block;
+}
+
+nav > ul > li:hover {
+  background-color: var(--white-light);
+  color: var(--blue-dark);
+  cursor: pointer;
+}
+
+li > a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* for intro */
+
+.me {
+  width: max(100px, 18vw);
+  aspect-ratio: 1 /1;
+  padding: 0.4rem;
+}
+
+/* for about */
+
+/* for projects */
+
+/* for contact */
 
 i {
   color: rgb(8, 93, 190);
