@@ -46,11 +46,13 @@ header {
   align-items: center;
   position: fixed;
   top: 0;
+  border-bottom: 2px solid var(--accent-dark);
 }
 
 header > h1 {
   color: var(--accent-dark);
   font-size: min(5vw, 1.2em);
+  width: 60%;
   text-align: center;
   margin: 0 0.2rem;
   padding: 0.2rem;
@@ -81,6 +83,7 @@ nav > ul > li {
 
 nav > ul > li:hover {
   background-color: var(--white-light);
+  border-radius: 15%;
   color: var(--blue-dark);
   cursor: pointer;
 }
@@ -109,6 +112,7 @@ main {
 
 .me {
   max-width: calc(50% - var(--nav-height));
+  min-width: calc((50% - var(--nav-height))/2);
   display: block;
   height: auto;
 }
@@ -129,10 +133,23 @@ main {
 }
 
 /* for about */
+#about-section {
+  background-color: var(--white-dark);
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
 
 /* for projects */
+#projects {
+  background-color: var(--blue-light);
+}
 
 /* for contact */
+#social {
+  background-color: var(--blue-dark);
+}
 
 i {
   color: rgb(8, 93, 190);
