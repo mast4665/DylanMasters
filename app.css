@@ -150,6 +150,19 @@ main {
   display: block;
   height: auto;
   margin: 0 auto;
+  padding-top: 1%;
+  border-top: 2px solid var(--accent-dark);
+}
+
+#about-section > div > h1 {
+  padding: 2% 0 1% 3%;
+  color: var(--blue-dark);
+  font-size: large;
+}
+
+#about-section > div > p {
+  padding: 0 1% 0.5% 1%;
+  color: var(--blue-medium);
 }
 
 /* for projects */
