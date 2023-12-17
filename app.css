@@ -190,12 +190,21 @@ main {
 }
 
 .project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: var(--blue-medium);
   width: 100%;
   max-width: 350px;
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
+  border: 1px solid var(--accent-dark);
+}
+
+.project > h3 {
+  color: var(--accent-dark);
+  padding: 2% 0;
 }
 
 .projects-box::after {
