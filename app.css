@@ -40,7 +40,7 @@ body {
 header {
   width: 100%;
   height: var(--nav-height);
-  background-color: var(--blue-light);
+  background-color: var(--blue-medium);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,15 +58,16 @@ header > h1 {
   padding: 0.2rem;
 }
 
-header > h1:hover {
-  background-color: var(--white-light);
-  border-radius: 15%;
-  cursor: pointer;
-}
-
 header > h1 > a {
   color: inherit;
   text-decoration: none;
+  margin: 0 5px;
+}
+
+header > h1 > a:hover {
+  background-color: var(--white-light);
+  border-radius: 10%;
+  cursor: pointer;
 }
 
 nav {
@@ -140,7 +141,7 @@ main {
 }
 
 #welcome-section .text > p {
-  color: var(--blue-light);
+  color: var(--blue-medium);
 }
 
 /* for about */
@@ -256,11 +257,11 @@ main {
   margin-bottom: -1%;
 }
 
-a:-webkit-any-link {
+.link-box :-webkit-any-link {
   color: var(--accent-dark);
 }
 
-a:-webkit-any-link:hover {
+.link-box a:-webkit-any-link:hover {
   background-color: var(--background);
   border-radius: 15%;
   color: var(--blue-dark);
