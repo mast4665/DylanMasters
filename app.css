@@ -266,3 +266,8 @@ a:-webkit-any-link:hover {
   color: var(--blue-dark);
   cursor: pointer;
 }
+
+.fas {
+  color: var(--accent-dark);
+  padding-right: 5px;
+}
