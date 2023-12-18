@@ -217,6 +217,15 @@ main {
   width: 350px;
 }
 
+.project > .description {
+  padding: 0 2%;
+}
+
+.project > .link {
+  margin-top: auto;
+  padding-bottom: 2%;
+}
+
 /* for contact */
 #social {
   background-color: var(--blue-medium);
