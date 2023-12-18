@@ -95,7 +95,7 @@ nav > ul > li {
 
 nav > ul > li:hover {
   background-color: var(--white-light);
-  border-radius: 15%;
+  border-radius: 5px;
   color: var(--blue-dark);
   cursor: pointer;
 }
@@ -232,7 +232,7 @@ main {
 
 .project a:-webkit-any-link:hover {
   background-color: var(--background);
-  border-radius: 15%;
+  border-radius: 5px;
   color: var(--blue-dark);
   cursor: pointer;
 }
@@ -287,7 +287,7 @@ main {
 
 .link-box a:-webkit-any-link:hover {
   background-color: var(--background);
-  border-radius: 15%;
+  border-radius: 5px;
   color: var(--blue-dark);
   cursor: pointer;
 }
