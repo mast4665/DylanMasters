@@ -66,7 +66,7 @@ header > h1 > a {
 
 header > h1 > a:hover {
   background-color: var(--white-light);
-  border-radius: 10%;
+  border-radius: 5px;
   cursor: pointer;
 }
 
