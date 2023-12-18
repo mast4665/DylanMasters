@@ -120,6 +120,7 @@ main {
   align-items: center;
   gap: 16%;
   margin: 0 auto;
+  scroll-margin-top: 30px;
 }
 
 .me {
@@ -153,6 +154,8 @@ main {
   margin: 0 auto;
   padding-top: 1%;
   border-top: 2px solid var(--accent-dark);
+  scroll-margin-top: 30px;
+  padding-bottom: 3%;
 }
 
 #about-section > div > h1 {
@@ -170,6 +173,7 @@ main {
 #projects {
   background-color: var(--background);
   border-top: 2px solid var(--accent-dark);
+  scroll-margin-top: 30px;
 }
 
 #projects > h2 {
@@ -218,6 +222,7 @@ main {
   background-color: var(--blue-medium);
   border-top: 2px solid var(--accent-dark);
   justify-content: center;
+  scroll-margin-top: 30px;
 }
 
 #social > h2 {
