@@ -218,12 +218,23 @@ main {
 }
 
 .project > .description {
-  padding: 0 2%;
+  padding: 0 5%;
 }
 
 .project > .link {
   margin-top: auto;
   padding-bottom: 2%;
+}
+
+.project :-webkit-any-link {
+  color: var(--accent-dark);
+}
+
+.project a:-webkit-any-link:hover {
+  background-color: var(--background);
+  border-radius: 15%;
+  color: var(--blue-dark);
+  cursor: pointer;
 }
 
 /* for contact */
